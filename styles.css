@@ -1,0 +1,154 @@
+body {
+    background-color: rgb(238, 208, 168);
+  }
+  
+  /* On screens that are 992px or less, set the background color to blue */
+  @media screen and (max-width: 992px) {
+    body {
+      background-color: rgb(202, 202, 226);
+    }
+  }
+  
+  /* On screens that are 600px or less, set the background color to olive */
+  @media screen and (max-width: 600px) {
+    body {
+      background-color: rgb(236, 236, 186);
+    }
+  }
+  
+  #navbar{
+     position:fixed;
+    top:0;
+    left:0;
+      background-color: rgb(221, 48, 48);
+      display:flex;
+      justify-content: space-around;
+      width:100%;
+      height:5%;
+      padding:10px 5px;
+
+  }
+nav a{
+    color: rgb(236, 236, 186);
+    font-size:15px;
+    font-family:cursive;
+    padding-left: 80px;
+    
+}
+ #welcome-section{
+    margin-top:80px;
+}
+.welcome{
+    text-align:center;
+    color:rgb(17, 17, 1);
+    font-family:cursive;
+
+}
+div{
+    position:relative
+}
+
+    .boxed {
+        position:relative;
+        top:-500px;
+        left:320px;
+        border: 2px solid green ;
+        margin-bottom:600px;
+        width:50%;
+        height:250px;
+        border-radius:2rem;
+        text-align: center;
+      } 
+      #projects{
+          position:relative;
+          top:-1050px;
+          left:20px;
+      }
+      .project-tile{
+        text-align:center;
+        color:rgb(17, 17, 1);
+        font-family:cursive;
+
+
+      }
+      img{
+          align-items: bottom;
+          margin-top:10px;
+          margin-left:10px;
+      }
+      figure {
+        
+        padding: 4px;
+        margin: auto;
+        display: inline-block;
+      }
+      figure img {
+        vertical-align: top;}
+      
+      figcaption {
+          position: relative;
+        background-color:#e74545 solid;
+        color:rgb(17, 17, 1);
+        font-style: italic;
+        padding: 5px;
+        text-align: center;
+        left:5px;
+        margin-top:5px;
+
+      }
+      .container {
+        -webkit-perspective: 1000px;
+                perspective: 1000px;
+        margin: 2em;
+        transform-style: preserve-3d;
+    }
+    
+    img {
+        transition: all .5s ease;
+         -webkit-transform: rotateX(0deg);
+         -webkit-transform-origin-y: 300px; /* rotates from the bottom of the image */
+    }
+    
+    img:hover {
+         -webkit-transform: rotateX(-45deg);
+    }
+    .fa {
+        padding: 20px;
+        font-size: 30px;
+        width: 30px;
+        text-align: center;
+        text-decoration: none;
+        margin: 5px 2px;
+        border-radius: 50%;
+        
+      }
+      
+      .fa:hover {
+          opacity: 0.7;
+      }
+      .fa-twitter {
+        background: #55ACEE;
+        color: white;
+      }
+
+      .fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+#contact{
+    position: relative;
+    top:-700px;
+    margin-left:80px;
+    font-family: cursive;
+}
+p{
+    font-family: cursive;
+}
+.link-x{
+    margin-left:55px;
+}
