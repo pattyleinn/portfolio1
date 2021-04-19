@@ -1,2 +1,2 @@
 # portfolio1
-link to portfolio https://github.com/pattyleinn/portfolio1.git
+link to portfolio https://pattyleinn.github.io/portfolio1/
